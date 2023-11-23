@@ -17,7 +17,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(background.png);
+    background-image: url(images/background.png);
     background-size: cover;
     background-position: center;
 }
@@ -25,6 +25,7 @@ body{
 .container{
     padding: 10px 10%;
 }
+
 
 nav{
     display: flex;
@@ -63,6 +64,11 @@ nav ul li a::after{
 
 nav ul li a:hover::after{
     width: 100%;
+}
+
+#sidemenu img{
+    width: 30px;
+    height: 20px;
 }
 
 .header-text{
@@ -364,6 +370,37 @@ form .btn2{
     display: block;
 }
 
+/* Animation */
+/* 
+.hidden{
+    opacity: 0;
+    transition: all 2.5s;
+} */
+
+.show{
+    opacity: 1;
+    /* transition: all 1s; */
+}
+
+/* Scroll to top */
+
+.scrollTop{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(243, 154, 154);
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 55%;
+    font-size: 15px;
+}
+
+.scrollTop:hover{
+    cursor: pointer;
+}
+
 
 /* CSS FOR SMALL SCREENS */
 
@@ -373,7 +410,7 @@ nav .fa-solid{
 
 @media only screen and (max-width: 680px){
     #header{
-        background-image: url(phone-background.png);
+        background-image: url(/images/phone-background.png);
     }
     .header-text{
         margin-top: 55%;
@@ -391,11 +428,12 @@ nav .fa-solid{
     }
 
     nav ul{
-        background: #ff004f;
+        background: #ec648fcd;
+        border-radius: 7px;
         position: fixed;
         top: 0;
         right: -200px;
-        width: 200px;
+        width: 150px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
