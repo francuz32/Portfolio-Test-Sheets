@@ -481,4 +481,17 @@ nav .fa-solid{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+
+    .scrollTop{
+        width: 25px;
+        height: 25px;
+        background-color: rgb(243, 154, 154);
+        position: fixed;
+        bottom: 5px;
+        right: 10px;
+        text-align: center;
+        padding: 5px;
+        border-radius: 55%;
+        font-size: 15px;
+    }
 }
