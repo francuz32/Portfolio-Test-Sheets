@@ -386,21 +386,25 @@ form .btn2{
 /* Scroll to top */
 
 .scrollTop{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background-color: rgb(243, 154, 154);
     position: fixed;
     bottom: 5px;
-    right: 5px;
+    right: 10px;
     text-align: center;
     padding: 5px;
     border-radius: 55%;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .scrollTop:hover{
     cursor: pointer;
 }
+
+/* .fa-arrow-up{
+    font-size: 15px;
+} */
 
 
 /* CSS FOR SMALL SCREENS */
