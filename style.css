@@ -85,6 +85,10 @@ nav ul li a:hover::after{
     color: #ec648f;
 }
 
+.home{
+    display: none;
+}
+
 
 /* ABOUT */
 #about{
@@ -372,11 +376,11 @@ form .btn2{
 }
 
 /* Animation */
-/* 
+
 .hidden{
     opacity: 0;
     transition: all 2.5s;
-} */
+}
 
 .show{
     opacity: 1;
@@ -433,13 +437,13 @@ nav .fa-solid{
     }
 
     nav ul{
-        background: #ec648fcd;
+        background: #ec648f;
         border-radius: 7px;
         position: fixed;
-        top: 0;
+        top: 50px;
         right: -200px;
         width: 150px;
-        height: 100vh;
+        height: 60%;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
@@ -450,11 +454,38 @@ nav .fa-solid{
         margin: 25px;
     }
 
+    nav i{
+            width: 40px;
+            height: 40px;
+            position: fixed;
+            bottom: 615px;
+            right: 2px;
+            text-align: center;
+            padding: 10px;
+            font-size: 25px;
+    }
+
     nav ul .fa-solid{
         position: absolute;
         top: 25px;
         left: 25px;
         cursor: pointer;
+        color: black;
+    }
+
+    nav ul .fa-x{
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        left: 15px;
+    }
+
+    .scrollTop{
+        display: none;
+    }
+
+    .home{
+        display: flex;
     }
 
     .sub-title{
@@ -482,7 +513,7 @@ nav .fa-solid{
         flex-basis: 100%;
     }
 
-    .scrollTop{
+    /* .scrollTop{
         width: 25px;
         height: 25px;
         background-color: rgb(243, 154, 154);
@@ -493,5 +524,5 @@ nav .fa-solid{
         padding: 5px;
         border-radius: 55%;
         font-size: 15px;
-    }
+    } */
 }

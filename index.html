@@ -15,7 +15,7 @@
             <nav>
                 <img src="images/logo.png" class="logo">
                 <ul id="sidemenu">
-                    <li><a href="#home" onclick="closemenu()">Home</a></li>
+                    <li><a href="#header" class="home" onclick="closemenu()">Home</a></li>
                     <li><a href="#about" onclick="closemenu()">About</a></li>
                     <li><a href="#services" onclick="closemenu()">Services</a></li>
                     <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
@@ -185,8 +185,8 @@
             </div>
         </div>
     </div>
-
-    <div onclick="scrollToTop()" class="scrollTop">
+onclick="scrollToTop()"
+    <div class="scrollTop" onclick="scrollToTop()">
         <i class="fa-solid fa-arrow-up"></i>
     </div>
 
@@ -230,7 +230,7 @@
     </script>
 
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzH34OYbK4tGNDQaeZcftvWDH7mmRjPCCw67akAu2jHGXnbZA-LiU34xkOfm6L8-Ygp/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzpimEtkKv4ljHit8tFPgUHspgDfoXwUrSQKn-E6BJ6ZMIRYCuH2G-zaN7rxt-Mzn1Y/exec'
     const form = document.forms['submit-to-google-sheet']
     const msg = document.getElementById("msg")
   
